@@ -1,0 +1,71 @@
+a:link, a:visited {
+color: #ffffff;
+text-decoration: underline;
+}
+a:hover, A:active, A:focus {
+color: #ffffff;
+text-decoration: none;
+}
+div#wrapper {
+position: relative;
+width: 100%;
+height: 100%;
+background: url(../../img/intro/sfnd-wrapper.png) transparent no-repeat bottom right;
+}
+div#quadro {
+position: absolute;
+top: 37%;
+left: 37%;
+margin-top: -150px;
+margin-left: -250px;
+width: 500px;
+height: 300px;
+text-align: center;
+}
+div#quadro .top {
+width: 500px;
+height: 150px;
+margin: 0 auto;
+background : url(../../img/intro/intro_top.png) no-repeat top left;
+}
+div#quadro .bottom {
+width: 500px;
+height: 150px;
+margin: 0 auto;
+background : url(../../img/intro/intro_bottom.png) no-repeat top left;
+}
+div#quadro .bottom a {
+width: 500px;
+display: block;
+background : transparent;
+text-shadow: 2px 2px 3px #000;
+line-height: 20px;
+letter-spacing: 1px;
+font-size: 18px;
+padding: 105px 0 30px 0;
+}
+div#quadro .top img, div#quadro .middle img {
+width: 500px;
+height: 150px;
+border: none;
+}
+div#shopping-cart {
+position: absolute;
+bottom: 31px;
+left: 0px;
+width: 284px;
+height: 126px;
+background: url(../../img/intro/shopping-cart-icons.png) transparent no-repeat top left;
+}
+div#shopping-cart a {
+display: block;
+width: 284px;
+height: 126px;
+text-indent: -5000px;
+overflow: hidden;
+}
+
+div#h1 {
+position: fixed;
+top: -5000px;
+}

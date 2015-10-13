@@ -1,0 +1,64 @@
+html {
+margin: 0; padding: 0;
+background: none;
+}
+body {
+position: relative;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+text-align: center;
+font: 12px verdana, helvetica, sans-serif;
+color: #282828;
+background: none;
+}
+.img {
+border: none !important;
+}
+div#wrapper {
+background: none;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+div#wrapper2 {
+background: none;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+}
+div#container {
+background: none;
+}
+div#main {
+background: none;
+}
+div#main .wrapper {
+background: none;
+}
+div#main-up {
+display: none;
+}
+div#container-up {
+display: none;
+}
+div#container-down {
+display: none;
+}
+div#menu {
+display: none;
+}
+div#submenu {
+display: none;
+}
+div#subhead {
+background: none;
+}
+div#head {
+background: none;
+
+}
+div#main .dx {
+display: none;
+}
+div#corpo .sx {
+width: auto;
+float: none;
+}

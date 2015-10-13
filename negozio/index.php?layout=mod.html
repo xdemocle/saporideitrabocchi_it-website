@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it" xml:lang="it">
+<head>
+<title>Login Page</title>
+<style type="text/css">
+<!--
+html, body {
+margin: 0;
+padding: 0;
+font-family: verdana;
+font-size: 13px;
+}
+DIV#login {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 300px;
+height: 180px;
+margin: -91px 0 0 -151px;
+border: 1px solid #000;
+text-align: center;
+}
+DIV#login input {
+margin: 4px 0 4px 0;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="login">
+<form method="post" action="index.html">
+<input type="hidden" name="act" value="login" />
+<input type="hidden" name="layout" value="mod" />
+
+<p>
+<b>Nome Utente :</b><br />
+<input type="text" size="26" name="loginname" />
+</p>
+
+<p>
+<b>Password :</b><br />
+<input type="password" size="26" name="password" />
+</p>
+
+<p>
+<input type="submit" value="Accedi >>" /></p>
+
+</form>
+</div>
+</body>
+</html>
